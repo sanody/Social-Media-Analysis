@@ -1,0 +1,12 @@
+﻿  CENTRALITY ALGORITHMS.cpp
+c:\users\pc\source\repos\centrality algorithms\centrality algorithms\centrality algorithms.cpp(35): warning C4018: '<': signed/unsigned mismatch
+c:\users\pc\source\repos\centrality algorithms\centrality algorithms\centrality algorithms.cpp(30): warning C4101: 'temp': unreferenced local variable
+c:\users\pc\source\repos\centrality algorithms\centrality algorithms\centrality algorithms.cpp(177): warning C4326: return type of 'main' should be 'int' instead of 'void'
+c:\users\pc\source\repos\centrality algorithms\centrality algorithms\centrality algorithms.cpp(201): warning C4018: '<': signed/unsigned mismatch
+c:\users\pc\source\repos\centrality algorithms\centrality algorithms\centrality algorithms.cpp(210): warning C4018: '<': signed/unsigned mismatch
+c:\users\pc\source\repos\centrality algorithms\centrality algorithms\centrality algorithms.cpp(219): warning C4018: '<': signed/unsigned mismatch
+c:\users\pc\source\repos\centrality algorithms\centrality algorithms\centrality algorithms.cpp(223): warning C4018: '<': signed/unsigned mismatch
+c:\users\pc\source\repos\centrality algorithms\centrality algorithms\centrality algorithms.cpp(237): warning C4018: '<': signed/unsigned mismatch
+c:\users\pc\source\repos\centrality algorithms\centrality algorithms\centrality algorithms.cpp(241): warning C4018: '<': signed/unsigned mismatch
+c:\users\pc\source\repos\centrality algorithms\centrality algorithms\centrality algorithms.cpp(249): warning C4018: '<': signed/unsigned mismatch
+  CENTRALITY ALGORITHMS.vcxproj -> C:\Users\pc\source\repos\CENTRALITY ALGORITHMS\Debug\CENTRALITY ALGORITHMS.exe
