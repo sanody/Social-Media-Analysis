@@ -1,0 +1,56 @@
+
+#include<vector>
+#include "pch.h"
+#include <iostream>
+using namespace std;
+
+int FindMinVertex(int*distance, bool*visited, int n)
+{
+	int MinVertex = -1;
+	for (int i = 0; i < n; i++)
+	{
+		if (!visited[i] &&(MinVertex = -1 ||(distance[i] < distance[MinVertex])))
+		{
+			MinVertex = i;
+		}
+	}
+	return MinVertex;
+}
+void Dijkstra(int** edges, int n)
+{
+	int * distance = new int[n];
+	bool * visited = new bool[n];
+	for (int i = 0; i < n; i++)
+	{
+		distance[i] = INT_MAX;
+		visited[i] = false;
+	}
+	distance[0] = 0;
+	for (int i = 0; i < n - 1; i++)
+	{
+		int MinVertex = FindMinVertex(distance, visited, n);
+		visited[MinVertex] = true;
+		for (int j = 0; j < n; j++)
+		{
+			if (edges[MinVertex][j] != 0 && !visited[j])
+			{
+				int dist = distance[MinVertex] + edges[MinVertex][j];
+				if (dist < distance[j])
+				{
+					distance[j] = dist;
+				}
+			}
+		}
+
+	}
+	for (int i = 0; i < n; i++)
+	{
+		cout << i << " " << distance[i] << endl;
+	}
+
+}
+
+int main()
+{
+}
+
